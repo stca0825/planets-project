@@ -31,3 +31,40 @@ p {
   color: whitesmoke;
   font-family: "EXO";
 }
+section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+section img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+}
+.text-block h2 {
+  margin-left: 400px;
+  margin-bottom: 10px;
+}
+.text-block p {
+  display: block;
+  margin-top: 0;
+}
+nav h2 {
+  color: whitesmoke;
+  font-family: "orbitron";
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.adventure-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
